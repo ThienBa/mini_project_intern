@@ -1,0 +1,3 @@
+a.active {
+    @apply py-[0.675rem] bg-blue-500 font-semibold;
+}

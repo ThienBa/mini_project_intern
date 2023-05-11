@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100rem;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #111c44c8;
+}
+
+.dark ::selection {
+    background: white;
+    color: #000;
+}
+
+.dark .text-dark-light {
+    color: #fff;
+}
+
+.light ::-webkit-scrollbar-thumb {
+    background-color: #33333377;
+}
+
+.light ::selection {
+    background: rgba(43, 43, 210, 0.989);
+    color: white;
+}
+
+.light p,
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6,
+.light input,
+.light label,
+.light a,
+.light th,
+.light td,
+.light li,
+.light .date-created,
+.light select,
+.light .light-white {
+    color: #333;
+}
+
+.light .pagination li a {
+    color: white;
+}
+
+.light a.active {
+    color: #fff;
+}
+
+.light input::placeholder {
+    color: #333333ca;
+}
+
+.light p.error-message {
+    color: rgb(239, 68, 68);
+}
+
+.light .text-light-black {
+    color: #333;
+}
+
+.light .bg-light {
+    @apply bg-white;
+}
+
+.light .bg-light > div {
+    @apply shadow-blue-500;
+}
